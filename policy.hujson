@@ -1,4 +1,4 @@
-// This tailnet's ACLs are maintained in <url>
+// This tailnet's ACLs are maintained in https://github.com/maooyer/tailscale-policy
 {
 	// Declare static groups of users. Use autogroups for all users or users with a specific role.
 	// "groups": {
