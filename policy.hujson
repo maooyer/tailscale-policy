@@ -34,13 +34,13 @@
 		"OmitDefaultRegions": false,
 		"Regions": {"900": {
 			"RegionID":   900,
-			"RegionCode": "sh",
-			"RegionName": "Shanghai",
+			"RegionCode": "sz",
+			"RegionName": "Shenzhen",
 			"Nodes": [{
 				"Name":     "1",
 				"RegionID": 900,
-				"HostName": "mesh.maooyer.com",
-				"DERPPort": 443,
+				"HostName": "sz01.derper.maooyer.com",
+				"DERPPort": 8443,
 			}],
 		}},
 	},
