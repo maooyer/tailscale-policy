@@ -40,13 +40,13 @@
 				"RegionName": "Shenzhen(shared)",
 				"Nodes": [
 					{
-						"Name":     "1",
+						"Name":     "900a",
 						"RegionID": 900,
 						"HostName": "derper.wintodoor.com",
 						"DERPPort": 443,
 					},
 					{
-						"Name":     "2",
+						"Name":     "900b",
 						"RegionID": 900,
 						"HostName": "derper.treesir.pub",
 						"DERPPort": 443,
@@ -59,25 +59,25 @@
 				"RegionName": "Guangzhou(shared)",
 				"Nodes": [
 					{
-						"Name":     "1",
+						"Name":     "901a",
 						"RegionID": 901,
 						"HostName": "derp1.zhaviation.cn",
 						"DERPPort": 443,
 					},
 					{
-						"Name":     "2",
+						"Name":     "901b",
 						"RegionID": 901,
 						"HostName": "zsderp.busilinq.com",
 						"DERPPort": 443,
 					},
 					{
-						"Name":     "3",
+						"Name":     "901c",
 						"RegionID": 901,
 						"HostName": "derper.ayshq.com",
 						"DERPPort": 443,
 					},
 					{
-						"Name":     "4",
+						"Name":     "901d",
 						"RegionID": 901,
 						"HostName": "derper.tangkunhou.com",
 						"DERPPort": 443,
