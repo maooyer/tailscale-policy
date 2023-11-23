@@ -34,14 +34,22 @@
 		"OmitDefaultRegions": false,
 		"Regions": {"900": {
 			"RegionID":   900,
-			"RegionCode": "sz",
-			"RegionName": "Shenzhen",
-			"Nodes": [{
-				"Name":     "1",
-				"RegionID": 900,
-				"HostName": "sz01.derper.maooyer.com",
-				"DERPPort": 8443,
-			}],
+			"RegionCode": "szx",
+			"RegionName": "Shenzhen(shared)",
+			"Nodes": [
+				{
+					"Name":     "1",
+					"RegionID": 900,
+					"HostName": "derper.wintodoor.com",
+					"DERPPort": 443,
+				},
+				{
+					"Name":     "2",
+					"RegionID": 900,
+					"HostName": "derper.treesir.pub",
+					"DERPPort": 443,
+				}
+		],
 		}},
 	},
 
