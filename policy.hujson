@@ -53,6 +53,37 @@
 					}
 				],
 			},
+			"901": {
+				"RegionID":   901,
+				"RegionCode": "gzx",
+				"RegionName": "Guangzhou(shared)",
+				"Nodes": [
+					{
+						"Name":     "1",
+						"RegionID": 901,
+						"HostName": "derp1.zhaviation.cn",
+						"DERPPort": 443,
+					},
+					{
+						"Name":     "2",
+						"RegionID": 901,
+						"HostName": "zsderp.busilinq.com",
+						"DERPPort": 443,
+					},
+					{
+						"Name":     "3",
+						"RegionID": 901,
+						"HostName": "derper.ayshq.com",
+						"DERPPort": 443,
+					},
+					{
+						"Name":     "4",
+						"RegionID": 901,
+						"HostName": "derper.tangkunhou.com",
+						"DERPPort": 443,
+					}
+				],
+			},
 		}
 	},
 
