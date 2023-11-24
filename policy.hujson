@@ -34,39 +34,33 @@
 		"OmitDefaultRegions": true,
 		"Regions": {
 			// Custom regions here.
-			// "900": {
-			// 	"RegionID":   900,
-			// 	"RegionCode": "szx",
-			// 	"RegionName": "Shenzhen(shared)",
-			// 	"Nodes": [
-			// 		{
-			// 			"Name":     "900a",
-			// 			"RegionID": 900,
-			// 			"HostName": "derper.wintodoor.com",
-			// 			"DERPPort": 443,
-			// 		},
-			// 		{
-			// 			"Name":     "900b",
-			// 			"RegionID": 900,
-			// 			"HostName": "derper.treesir.pub",
-			// 			"DERPPort": 443,
-			// 		}
-			// 	],
-			// },
 			"900": {
 				"RegionID":   900,
-				"RegionCode": "gzx",
-				"RegionName": "Guangzhou(shared)",
+				"RegionCode": "szx",
+				"RegionName": "Shenzhen(shared)",
 				"Nodes": [
 					{
 						"Name":     "900a",
 						"RegionID": 900,
-						"HostName": "derp1.zhaviation.cn",
+						"HostName": "derper.wintodoor.com",
 						"DERPPort": 443,
 					},
 					{
 						"Name":     "900b",
 						"RegionID": 900,
+						"HostName": "derper.treesir.pub",
+						"DERPPort": 443,
+					}
+				],
+			},
+			"901": {
+				"RegionID":   901,
+				"RegionCode": "gzx",
+				"RegionName": "Guangzhou(shared)",
+				"Nodes": [
+					{
+						"Name":     "901a",
+						"RegionID": 901,
 						"HostName": "derper.tangkunhou.com",
 						"DERPPort": 443,
 					}
