@@ -37,7 +37,7 @@
 			"900": {
 				"RegionID":   900,
 				"RegionCode": "szx",
-				"RegionName": "Shenzhen(shared)",
+				"RegionName": "Shen Zhen",
 				"Nodes": [
 					{
 						"Name":     "900a",
@@ -50,9 +50,28 @@
 						"RegionID": 900,
 						"HostName": "derper.treesir.pub",
 						"DERPPort": 443,
+					},
+					{
+						"Name":     "900c",
+						"RegionID": 900,
+						"HostName": "derper2.geelevel.com",
+						"DERPPort": 443,
 					}
 				],
 			}
+			// "901": {
+			// 	"RegionID":   901,
+			// 	"RegionCode": "hkx",
+			// 	"RegionName": "Hong Kong",
+			// 	"Nodes": [
+			// 		{
+			// 			"Name":     "901a",
+			// 			"RegionID": 901,
+			// 			"HostName": "tailscale-gateway-hk01.841297.xyz",
+			// 			"DERPPort": 443,
+			// 		}
+			// 	],
+			// },
 		}
 	},
 
