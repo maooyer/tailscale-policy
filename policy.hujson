@@ -83,7 +83,39 @@
 						"DERPPort": 443,
 					}
 				],
+			},
+			"902": {
+				"RegionID":   902,
+				"RegionCode": "bjx",
+				"RegionName": "Beijing",
+				"Nodes": [
+					{
+						"Name":     "902a",
+						"RegionID": 902,
+						"HostName": "derp.xxhpkwd.com",
+						"DERPPort": 443,
+					},
+					{
+						"Name":     "902b",
+						"RegionID": 902,
+						"HostName": "derp.turinggear.com",
+						"DERPPort": 443,
+					}
+				],
 			}
+			// "903": {
+			// 	"RegionID":   903,
+			// 	"RegionCode": "hkg",
+			// 	"RegionName": "Hongkong",
+			// 	"Nodes": [
+			// 		{
+			// 			"Name":     "903a",
+			// 			"RegionID": 903,
+			// 			"HostName": "derp.xxhpkwd.com",
+			// 			"DERPPort": 443,
+			// 		}
+			// 	],
+			// }
 		}
 	},
 
