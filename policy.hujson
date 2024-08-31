@@ -75,6 +75,12 @@
 						"RegionID": 901,
 						"HostName": "derp.hz.suki.ltd",
 						"DERPPort": 443,
+					},
+					{
+						"Name":     "901b",
+						"RegionID": 901,
+						"HostName": "derp.wxzhao.top",
+						"DERPPort": 443,
 					}
 				],
 			}
