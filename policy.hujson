@@ -50,37 +50,6 @@
 						"RegionID": 900,
 						"HostName": "derper.treesir.pub",
 						"DERPPort": 443,
-					},
-					{
-						"Name":     "900c",
-						"RegionID": 900,
-						"HostName": "derper2.geelevel.com",
-						"DERPPort": 443,
-					},
-					{
-						"Name":     "900d",
-						"RegionID": 900,
-						"HostName": "derp.zhouzhixiong.cn",
-						"DERPPort": 443,
-					}
-				],
-			},
-			"901": {
-				"RegionID":   901,
-				"RegionCode": "hzx",
-				"RegionName": "Hangzhou",
-				"Nodes": [
-					{
-						"Name":     "901a",
-						"RegionID": 901,
-						"HostName": "derp.hz.suki.ltd",
-						"DERPPort": 443,
-					},
-					{
-						"Name":     "901b",
-						"RegionID": 901,
-						"HostName": "derp.wxzhao.top",
-						"DERPPort": 443,
 					}
 				],
 			},
@@ -93,12 +62,6 @@
 						"Name":     "902a",
 						"RegionID": 902,
 						"HostName": "derp.xxhpkwd.com",
-						"DERPPort": 443,
-					},
-					{
-						"Name":     "902b",
-						"RegionID": 902,
-						"HostName": "derp.turinggear.com",
 						"DERPPort": 443,
 					}
 				],
