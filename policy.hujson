@@ -6,16 +6,41 @@
 	// },
 
 	// Define the tags which can be applied to devices and by which users.
-	// "tagOwners": {
-	//  	"tag:example": ["autogroup:admin"],
-	// },
+	"tagOwners": {
+		"tag:k3s": ["autogroup:admin"]
+	},
 
 	// Define access control lists for users, groups, autogroups, tags,
 	// Tailscale IP addresses, and subnet ranges.
 	"acls": [
-		// Allow all connections.
-		// Comment this section out if you want to define specific restrictions.
-		{"action": "accept", "src": ["*"], "dst": ["*:*"]},
+		// Allow full mesh between all k3s cluster nodes (tagged "k3s").
+		{
+			"action": "accept",
+			"src": ["tag:k3s"],
+			"dst": ["tag:k3s:*"]
+		},
+
+		// Allow specified management/bastion nodes (tagged "k3s-admin") to access k3s nodes.
+		// Replace "tag:k3s-admin" with the tag(s) you use for your admin/management devices.
+		{
+			"action": "accept",
+			"src": ["tag:k3s-admin"],
+			"dst": ["tag:k3s:*"]
+		},
+
+		// Deny all other sources from reaching k3s nodes.
+		{
+			"action": "deny",
+			"src": ["*"],
+			"dst": ["tag:k3s:*"]
+		},
+
+		// Allow all other traffic (non-k3s / non-k3s-admin traffic) to flow freely.
+		{
+			"action": "accept",
+			"src": ["*"],
+			"dst": ["*:*"]
+		},
 	],
 
 	// Define users and devices that can use Tailscale SSH.
